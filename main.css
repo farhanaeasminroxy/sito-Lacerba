@@ -1,0 +1,181 @@
+body {
+  padding: 0;
+  font-weight: bold;
+  color: #384047;
+}
+.area {
+	padding: 50px;
+
+}
+
+ form {
+  margin: 10px auto;
+  padding: 10px 30px;
+
+  
+  
+}
+
+
+h1 {
+  width: 50%;
+  color: white;
+  margin: 20px 50px;
+  margin-top: 150px;
+  text-align: center;
+}
+.title {
+	margin-left: 90px;
+	width: 100%;
+}
+.left-area {
+	width: 55%;
+	float: left;
+	background: #11E5AB;
+    height: 670px;
+    
+
+
+}
+.right-area {
+	float: left;
+	overflow: hidden;
+	width: 45%;
+}
+.right-area img {
+	height: 600px;
+}
+.left-area input[type="text"],
+.left-area input[type="password"] {
+	border: 1px solid gray;
+	padding: 8px 10px;
+	width: 50%;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 5px 150px;
+}
+.submit-btn {
+	margin-top: 30px;
+}
+.btn {
+	background: #8B2CB8;
+	padding: 10px 40px;
+	margin: 30px 40px;
+	padding-left: 30px;
+	margin-left: 270px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+
+}
+
+.one-half {
+	overflow: hidden;
+
+}
+.half1 {
+	width: 40%;
+	float: left;
+	overflow: hidden;
+	margin-right: -79px;
+
+}
+.half2 {
+	width: 40%;
+	overflow: hidden;
+	margin-left: -79px;
+}
+/******LOGIN PAGE****/
+.ricordami {
+	margin-left: 150px;
+	color: gray;
+}
+.submit input[type="submit"] {
+	background: #8B2CB8;
+	padding: 10px 40px;
+	margin: 30px 40px;
+	padding-left: 30px;
+	margin-left: 270px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+
+}
+.checkbox {
+	width: 40%;
+	color: white;
+	margin-left: 150px; 
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	.container {
+		width: 100%;
+	}
+	header .title {
+		background: #11E5AB;
+		color: white;
+		margin: 0 0;
+	}
+	h1 {
+  width: 100%;
+  color: white;
+  margin: 0;
+  margin-top: 0px;
+  text-align: left;
+}
+.media {
+	margin-left: 0px;
+}
+.madia {
+	margin-left: 0px; 
+}
+
+	.left-area {
+	width: 100%;
+	float: bottom;
+	background: gray;
+    height: 670px;
+    
+}
+
+
+
+.checkbox {
+	width: 90%;
+	color: white;
+	margin-left: 10px; 
+}
+.btn {
+	background: #8B2CB8;
+	padding: 10px 40px;
+	margin: 30px 0px;
+	padding-left: 30px;
+	margin-left: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+
+}
+.submit input[type="submit"] {
+	background: #8B2CB8;
+	padding: 10px 40px;
+	margin: 30px 40px;
+	padding-left: 30px;
+	margin-left: 70px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 0;
+	transition: background .3s;
+	border-radius: 10px;
+
+}
+	
+}
